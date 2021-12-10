@@ -7,8 +7,8 @@ import {
   ObsidianWrapper,
   useObsidian,
   BrowserCache,
-} from 'https://deno.land/x/obsidian/clientMod.ts';
-// } from '../obsidian/clientMod.ts';
+// } from 'https://deno.land/x/obsidian/clientMod.ts';
+} from '../obsidian/clientMod.ts';
 
 import rsh from 'https://dev.jspm.io/react-syntax-highlighter';
 

@@ -1,5 +1,6 @@
 import { Pool } from 'https://deno.land/x/postgres/mod.ts';
 // import { PoolClient } from 'https://deno.land/x/postgres/client.ts';
+import "https://deno.land/x/dotenv/load.ts";
 
 let pgPort: number | string | undefined = Deno.env.get('PG_PORT');
 if (typeof pgPort === 'string') {
